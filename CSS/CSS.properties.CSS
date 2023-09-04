@@ -1,0 +1,17 @@
+p#p1 {
+    font-size: large;color: black;      
+}
+
+p#p1 {
+    border: 3px solid red;
+}
+
+p#p2 {
+    font-style: italic;
+}
+
+p#p3 {
+    font-size: large;color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
