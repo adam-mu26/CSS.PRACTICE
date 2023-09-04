@@ -3,7 +3,8 @@ p#p1 {
 }
 
 p#p1 {
-    border: 3px solid red;
+    border: 1px solid red;
+    border-radius: 15px;
 }
 
 p#p2 {
