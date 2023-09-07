@@ -1,0 +1,124 @@
+.button1   {
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+.button2 {
+    border: none;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: smaller;
+    margin: auto;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.button3 {
+border:none;
+border-radius: 100px ;
+color: black;
+padding: 10px 12px;
+text-decoration: none;
+display: inline-block;
+font-size: large;
+margin: auto;
+cursor: pointer;
+background-color: green;
+}
+
+.button4 {
+    border:none;
+    border-radius: 100px ;
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: smaller;
+    margin: auto;
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.button5 {
+    color: red;
+    background:#fff;
+    border: 1px solid red;
+    font-size: 17px;
+    padding: 5px 8px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 80px;
+
+}
+.button5:hover {
+    background-color: aquamarine;
+}
+
+.button6 {
+    color: red;
+    background:#fff;
+    border: 1px solid red;
+    font-size:smaller;
+    padding: 3px 2px;
+    font-weight: normal;
+    margin: 5px 0;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 70px;
+}
+.button6:hover {
+    background-color: blueviolet;
+}
+
+.button7 {
+    color: green;
+    background:#fff;
+    border: 1px solid blue;
+    font-size: large;
+    padding: 5px 8px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 80px;
+    border-radius: 50px;
+}
+.button7:hover {
+    background-color: peru;
+}
+
+.button8 {
+    color: black;
+    background:#fff;
+    border: 1px solid lightcoral;
+    font-size: smaller;
+    padding: 5px 8px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 60px;
+    border-radius: 50px;
+}
+
+.button8:hover {
+    background-color: slateblue;
+}
