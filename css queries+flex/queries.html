@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries1</title>
+    <style>
+        h1 {
+            display: none;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        @media(min-width: 500px) {
+            body {
+                background: red;
+            }
+        }
+
+
+        @media(min-width:502px) and (max-width:750px) {
+            body {
+                background: blue;
+            }
+
+
+            #smartphone h1 {
+                display: block;
+            }
+        }
+
+        @media(min-width:755px) and (max-width:1100px) {
+            body {
+                background: yellow;
+            }
+
+
+            #normal h1 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="widescreen">
+        <h1>widescreen</h1>
+    </div>
+    <div id="normal">
+        <h1>Normal</h1>
+    </div>
+    <div id="tablet">
+        <h1>Tablet</h1>
+    </div>
+    <div id="smartphone">
+        <h1>Smartphone</h1>
+    </div>
+    <div id="landscape">
+        <h1>Landscape</h1>
+    </div>
+
+
+
+</body>
+
+</html>

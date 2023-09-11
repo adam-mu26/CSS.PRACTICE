@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> media queries2</title>
+</head>
+<body>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            text-align: center;
+            padding-top: 100px;
+        }
+        @media (max-width:750px) {
+            body {
+                background: blue;
+            }
+          p {
+                display: block;
+                font-size: 20px;
+            }
+        }
+
+        @media (min-width:750px) and (max-width:1000px){
+            body {
+                background: green;
+            }
+            p{
+                display: block;
+                font-size: 35px;
+            }
+        }
+
+        @media (min-width:1001px) {
+            body {
+                background: yellow;
+            }
+            p{
+                display: block;
+                font-size: 45px;
+            }
+        }
+
+
+
+
+
+    </style>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco
+           laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+
+</body>
+</html>

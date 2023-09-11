@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vh & Vw</title>
+    <style>
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    } 
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        background: #333;
+        color: white;
+    }
+
+    @media (min-width:500px) and (max-width:750px) {
+        header {
+            height: 30vh;
+            width: 100vw;
+           
+        }
+    }
+
+    @media (min-width:750px) and (max-width:1000px) {
+        header {
+            height:17vh ;
+            width: 100vw;
+        }
+    }
+
+    @media (min-width:1001px) and (max-width:2000px) {
+        header {
+            height:14vh ;
+            width: 100vw;
+        }
+    }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome To My Page</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci voluptas laborum dicta aliquid molestiae mollitia omnis atque consectetur temporibus laboriosam laudantium, culpa cupiditate, maxime rem doloribus numquam ut dolor officia!</p>   
+</header>
+</body>
+</html>

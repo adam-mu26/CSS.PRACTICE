@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basics 4</title>
+</head>
+<body>
+    <style>
+
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .flex-container {
+        background-color:lavender;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items:center;
+        height: 100vh;
+        width:28.6vh;
+    }
+
+
+    .box1 {
+        background: green;
+        height:200px ;
+        width: 250px;
+    
+        /* padding: 70px; */
+        
+    }
+    
+    .box2 {
+        background: blue;
+        width: 250px;
+        height: 200px;
+        /* padding: 70px; */
+    }
+    
+    .box3 {
+        background: red;
+        width: 250px;
+        height:200px
+        /* padding: 70px; */
+    }
+    
+  
+        </style>
+    
+    </head>
+    <body>
+    <div class="flex-container">
+        <div class="box1">
+            <h1>BOX 1</h1>
+        </div>
+    
+        <div class="box2">
+            <h1>BOX 2</h1>
+        </div>
+    
+        <div class="box3">
+            <h1>BOX 3</h1>
+        </div>       
+    </div>
+            
+</body>
+</html>
