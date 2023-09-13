@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid</title>
+    <style>
+ 
+    .grid {
+    background-color: aqua;
+    border: black 2px solid;
+    padding: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    }
+
+    .container{
+        display: grid;
+        gap: 1rem;
+        grid-template-areas: 
+        "header header header header"
+        "sidebar content content sidebar2"
+        "footer footer footer footer"
+        ;
+    }
+
+    .grid:nth-child(1) {
+        grid-area: header ;
+    }
+
+    .grid:nth-child(2) {
+        grid-area: sidebar;
+    }
+
+    .grid:nth-child(3) {
+        grid-area: content;
+    }
+
+    .grid:nth-child(4) {
+        grid-area: sidebar2;
+    }
+
+    .grid:nth-child(5) {
+        grid-area: footer;
+    }
+
+    @media(max-width: 500px) {
+        .container {
+            grid-template-areas: 
+            "header"
+            "sidebar"
+            "content"
+            "sidebar2"
+            "footer";
+        }
+    }
+
+    @media(max-width: 1024px) and (min-width: 500px) {
+        .container {
+            grid-template-areas:
+            "header header header header"
+            "sidebar content content content"
+            "sidebar2 sidebar2 sidebar2 sidebar2"
+            "footer footer footer footer" ;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque consequatur mollitia aut, aspernatur voluptates maxime vero, dolorem eaque nobis doloremque alias accusantium consectetur incidunt, enim consequuntur error repellendus possimus et.</div>
+        <div class="grid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio veritatis natus tenetur harum odio dolore enim placeat expedita, corrupti hic, ad, recusandae velit dolorum. Incidunt veniam maxime modi quisquam atque!</div>
+        <div class="grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam rem aperiam quia velit? Iure exercitationem ipsum, similique iusto suscipit dolor tenetur. Reiciendis adipisci cumque iure commodi nam. Ipsa, voluptatem.</div>
+        <div class="grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias facere ab tenetur voluptatem? Unde, illum nobis. Magni doloribus maiores corporis et. Eos sint numquam blanditiis dignissimos facilis consequatur aperiam.</div>
+        <div class="grid">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio perspiciatis quisquam quia nihil incidunt voluptatibus itaque magni culpa minima architecto, accusantium in fuga laborum. A fugit iure iste excepturi!</div> 
+</body>
+</html>
